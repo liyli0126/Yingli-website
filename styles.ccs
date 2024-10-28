@@ -1,0 +1,53 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    text-align: center; /* Center content within each column */
+}
+
+.column h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.column h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.column p {
+    margin: 5px 0;
+}
+
+.column a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.column a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    text-align: left; /* Adjust text alignment within the Contact Information section */
+}
+
+.profile-pic {
+    width: 0.3in; /* Set width to 1.5 inches */
+    height: 0.4in; /* Set height to 2 inches */
+    max-width: 100%; /* Ensure it doesn't exceed container width */
+    display: block; /* Remove extra space under image */
+    margin: auto; /* Center image horizontally */
+}
